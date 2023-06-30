@@ -1,0 +1,75 @@
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.employee-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.employee-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.employee-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+
+.id-circle {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.avatar {
+  border: 2px solid #000;
+  border-radius: 10px;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.first-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
